@@ -1,0 +1,1 @@
+docker exec -it ur5e_container bash

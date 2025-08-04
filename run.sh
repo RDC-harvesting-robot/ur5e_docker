@@ -1,6 +1,7 @@
 xhost +local:root
 
 docker run --pull=always -it \
+    --name ur5e_container \
     --net=host \
     --privileged \
     -e DISPLAY \
